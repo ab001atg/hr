@@ -7,6 +7,7 @@ public class Solution {
 
 		Scanner sc = new Scanner(System.in);
 		int n = sc.nextInt();
+		sc.close();
 		String ans = "";
 		if (n % 2 == 1) {
 			ans = "Weird";
